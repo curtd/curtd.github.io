@@ -61,8 +61,10 @@ where
 
 Some useful identities are 
 \\[
-\int_{-\infty}^{x} t \phi(t)dt &= -\phi(x)\\
-\int_{-\infty}^{x} t^2 \phi(t)dt &= \Phi(x) - x\phi(x)
+    \begin{align*}
+    \int_{-\infty}^{x} t \phi(t)dt &= -\phi(x)\\
+    \int_{-\infty}^{x} t^2 \phi(t)dt &= \Phi(x) - x\phi(x)
+    \end{align*}
 \\]
 
-We expand the left hand side of $\label{eq1}$ as 
+We expand the left hand side of $$\eqref{eq1}$$ as 
