@@ -30,22 +30,26 @@ The cumulative distribution function is
 We have that
 
 \\[
+\begin{equation}
 \label{eq1}
 \int_{-\infty}^{b} (x-y)^2 \phi_{\mu, \sigma}(x) dx = \Phi(z) (\mu_s^2 + \sigma^2) - (2\mu_s \sigma + \sigma^2 z)\phi(z)
+\end{equation}
 \\]
+
 where 
+
 \\[
 \mu_s = \mu - y, \quad z = \dfrac{b-y-\mu_s}{\sigma}
 \\]
 
 and 
 
-$$
+\\[
 \begin{equation}
 \label{eq2}
 \int_{-\infty}^{b} x \phi_{\mu, \sigma}(x) dx = \mu \Phi(z) - \sigma \phi(z)
 \end{equation}
-$$
+\\]
 
 where 
 \\[
