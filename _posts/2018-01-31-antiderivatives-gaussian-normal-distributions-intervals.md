@@ -62,7 +62,7 @@ where
 Some useful identities are 
 
 \begin{align}
-\int_{-\infty}^{x} t \phi(t)dt &= -\phi(x) \notag \
+\int_{-\infty}^{x} t \phi(t)dt &= -\phi(x) \notag \\\
 \int_{-\infty}^{x} t^2 \phi(t)dt &= \Phi(x) - x\phi(x)\notag
 \end{align}
 
@@ -80,3 +80,5 @@ and $\phi_{\mu, \sigma}(t+y) = \phi_{\mu-y,\sigma}(t)$, so we merely need to com
 \\]
 
 with $b' = b-y$, $\mu'=\mu-y$. 
+
+
