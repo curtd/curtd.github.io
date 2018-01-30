@@ -17,7 +17,7 @@ is the probability density function (pdf) of a Gaussian random variable (r.v.) w
 
 and a Gaussian r.v. with mean $$\mu$$ and variance $$\sigma$$ has pdf 
 $$
-\phi_{\mu, \sigma}(x) = \dfrac{1}{\sigma}\phi(\dfrac{x-\mu}{\sigma}).
+\phi_{\mu, \sigma}(x) = \dfrac{1}{\sigma}\phi\left(\dfrac{x-\mu}{\sigma}\right).
 $$
 
 The cumulative distribution function is 
