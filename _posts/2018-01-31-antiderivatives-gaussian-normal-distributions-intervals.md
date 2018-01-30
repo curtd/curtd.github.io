@@ -10,36 +10,40 @@ In this blog post, we're going to explicitly calculate some analytical expressio
 
 ## Notation
 Let 
-$$
+\\[
 \phi(x) = \dfrac{1}{\sqrt{2\pi}} e^{-x^2/2}
-$$ 
+\\]
 is the probability density function (pdf) of a Gaussian random variable (r.v.) with mean $$0$$ and variance $$1$$ 
 
 and a Gaussian r.v. with mean $$\mu$$ and variance $$\sigma$$ has pdf 
-$$
+\\[
 \phi_{\mu, \sigma}(x) = \dfrac{1}{\sigma}\phi\left(\dfrac{x-\mu}{\sigma}\right).
-$$
+\\]
 
 The cumulative distribution function is 
-$$
+\\[
 \Phi(x) = \int_{-\infty}^{x} \phi(t)dt.
-$$
+\\]
 
 ## Integral identities 
 
 We have that
 
 $$
+\begin{equation}
 \label{eq1}
 \int_{-\infty}^{b} (x-y)^2 \phi_{\mu, \sigma}(x) dx = \Phi(z) (\mu_s^2 + \sigma^2) - (2\mu_s \sigma + \sigma^2 z)\phi(z)
+\end{equation}
 $$ 
 where $$\mu_s = \mu - y$$, $$z = \dfrac{b-y-\mu_s}{\sigma}$$
 
 and 
 
 $$
+\begin{equation}
 \label{eq2}
 \int_{-\infty}^{b} x \phi_{\mu, \sigma}(x) dx = \mu \Phi(z) - \sigma \phi(z)
+\end{equation}
 $$
 where $$z = \dfrac{b-\mu}{\sigma}$$. 
 
@@ -47,9 +51,9 @@ where $$z = \dfrac{b-\mu}{\sigma}$$.
 ## Proof
 
 Some useful identities are 
-$$
+\\[
 \int_{-\infty}^{x} t \phi(t)dt &= -\phi(x)\\
 \int_{-\infty}^{x} t^2 \phi(t)dt &= \Phi(x) - x\phi(x)
-$$
+\\]
 
-We expand the left hand side of $$\label{eq1}$$ as 
+We expand the left hand side of $\label{eq1}$ as 
