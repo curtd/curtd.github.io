@@ -67,4 +67,9 @@ Some useful identities are
 \end{align}
 
 
-We expand the left hand side of $$\eqref{eq1}$$ as 
+We first reduce the left hand side of $$\eqref{eq1}$$ to
+\\[
+\int_{-\infty}^{b-y} t^2 \phi_{\mu,\sigma}(t+y)dt
+\\]
+
+and $\phi_{\mu, \sigma}(t+y) = \phi_{\mu-y,\sigma}(t)$. 
