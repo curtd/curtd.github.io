@@ -61,10 +61,10 @@ where
 
 Some useful identities are 
 
-\begin{align*}
-\int_{-\infty}^{x} t \phi(t)dt &= -\phi(x) \\
-\int_{-\infty}^{x} t^2 \phi(t)dt &= \Phi(x) - x\phi(x)
-\end{align*}
+\begin{align}
+\int_{-\infty}^{x} t \phi(t)dt &= -\phi(x) \notag \\
+\int_{-\infty}^{x} t^2 \phi(t)dt &= \Phi(x) - x\phi(x)\notag
+\end{align}
 
 
 We use the substitution $$t = x-y$$ in $$\eqref{eq1}$$ to yield
@@ -76,7 +76,7 @@ We use the substitution $$t = x-y$$ in $$\eqref{eq1}$$ to yield
 and $\phi_{\mu, \sigma}(t+y) = \phi_{\mu-y,\sigma}(t)$, so we merely need to compute
 
 \\[
-\int_{-\infty}^{b'} t^2 \phi_{\mu',sigma}(t)dt
+\int_{-\infty}^{b'} t^2 \phi_{\mu',\sigma}(t)dt
 \\]
 
 with $b' = b-y$, $\mu'=\mu-y$. 
