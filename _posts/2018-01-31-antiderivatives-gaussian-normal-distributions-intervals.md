@@ -30,6 +30,7 @@ $$
 We have that
 
 $$
+\label{eq1}
 \int_{-\infty}^{b} (x-y)^2 \phi_{\mu, \sigma}(x) dx = \Phi(z) (\mu_s^2 + \sigma^2) - (2\mu_s \sigma + \sigma^2 z)\phi(z)
 $$ 
 where $$\mu_s = \mu - y$$, $$z = \dfrac{b-y-\mu_s}{\sigma}$$
@@ -37,6 +38,7 @@ where $$\mu_s = \mu - y$$, $$z = \dfrac{b-y-\mu_s}{\sigma}$$
 and 
 
 $$
+\label{eq2}
 \int_{-\infty}^{b} x \phi_{\mu, \sigma}(x) dx = \mu \Phi(z) - \sigma \phi(z)
 $$
 where $$z = \dfrac{b-\mu}{\sigma}$$. 
@@ -50,6 +52,4 @@ $$
 \int_{-\infty}^{x} t^2 \phi(t)dt &= \Phi(x) - x\phi(x)
 $$
 
-
-
-
+We expand the left hand side of $$\label{eq1}$$ as 
