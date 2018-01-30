@@ -76,7 +76,7 @@ We use the substitution $$t = x-y$$ in $$\eqref{eq1}$$ to yield
 and $\phi_{\mu, \sigma}(t+y) = \phi_{\mu-y,\sigma}(t)$, so we merely need to compute
 
 \\[
-\int_{-\infty}^{b'} t^2 \phi_{\mu',\sigma}(t)dt
+\int_{-\infty}^{b'} t^2 \phi_{\mu',\sigma}(t)dt = \int_{-\infty}^{b'} t^2 \phi\left(\dfrac{t-\mu'}{\sigma}\right)dt
 \\]
 
 with $b' = b-y$, $\mu'=\mu-y$. 
